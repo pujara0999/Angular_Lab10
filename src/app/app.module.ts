@@ -13,11 +13,12 @@ import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { TodoTitleComponent } from './todo-title/todo-title.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
-import { TodoCreateComponent } from './todo-details/todo-create.component';
+import { TodoCreateComponent } from './todo-create/todo-create.component';
 import { TodoDetailsComponent } from './todo-details/todo-details.component';
 import { MatTableModule } from '@angular/material/table'; 
 import { MatListModule } from '@angular/material/list'; 
-import { MatExpansionModule } from '@angular/material/expansion'; 
+import { MatExpansionModule } from '@angular/material/expansion';
+import { TodoFooterComponent } from './todo-footer/todo-footer.component'; 
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     TodoListComponent,
     TodoCreateComponent,
     TodoDetailsComponent,
+    TodoFooterComponent,
   ],
   imports: [
     BrowserModule,

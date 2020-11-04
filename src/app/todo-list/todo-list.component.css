@@ -3,24 +3,7 @@
     position: absolute;
     right: 5%;
     bottom: 10%;
-    justify-content: center;
-    margin-left: 50px;
 }
-
-.new_entry_form {
-    /* margin-bottom: 20px; */
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-     flex-direction: column; 
-
-}
-
-.new_entry_form mat-form-field {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
 .entry {
     margin: 5px 5px 5px 5px;
 }
@@ -39,15 +22,4 @@
 
 .toolbar-spacer {
     flex: 1 1 auto;
-}
-.h3{
-    text-align: center;
-}
-.add{
-    justify-content: center;
-}
-.adder{
-    justify-content: space-between;
-    display: flex;
-    
 }
